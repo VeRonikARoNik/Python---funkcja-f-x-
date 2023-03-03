@@ -50,7 +50,6 @@ if (a != 0 and b != 0):  # funkcja kwadratowa
 
 if (a != 0 and b == 0 and c != 0):  # funkcja stała
     delta = b**2 - 4*a*c
-```
     print("delta =", str(delta))
     if (delta > 0):
         x1 = -b-math.sqrt(delta)/(2*a)
@@ -71,4 +70,5 @@ if (a != 0 and b == 0 and c != 0):  # funkcja stała
 
 if (a == 0 and b == 0 and c != 0):  # brak funkcji
     print("To nie jest funkcja : f(x)=", str(c))
+```
 
