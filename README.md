@@ -2,7 +2,7 @@
 Wyznaczanie typu funkcji oraz wyliczanie podstawowych parametrów.
 
 #KOD PROGRAMU
-
+```
 import math
 print("Podaj libczby a, b, c, do funkcji f(x) = ax^2 + bx + c")
 
@@ -50,6 +50,7 @@ if (a != 0 and b != 0):  # funkcja kwadratowa
 
 if (a != 0 and b == 0 and c != 0):  # funkcja stała
     delta = b**2 - 4*a*c
+```
     print("delta =", str(delta))
     if (delta > 0):
         x1 = -b-math.sqrt(delta)/(2*a)
